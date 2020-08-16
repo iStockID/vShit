@@ -52,6 +52,16 @@ a:hover{
     background-color: #fff;
     color: #2980b9;
 }
+.button-green{
+    background-color: #087c71;
+    border-radius: 50px;
+    padding: 10px 20px;
+    color: #fff;
+}
+.button-green:hover{
+    background-color: #fff;
+    color: #087c71;
+}
 /* Box Shadow */
 .shadow-basic{
     -webkit-box-shadow: 5px 5px 10px 0px rgba(0,0,0,0.3);
@@ -169,10 +179,10 @@ a:hover{
     background-size: cover;
     background-position: center;
 }
-.vendor-thumbnails .card{
+.vendor-thumbnails .card, .news-thumbnails .card{
     transition: all .3s;
 }
-.vendor-thumbnails .card:hover{
+.vendor-thumbnails .card:hover,  .news-thumbnails .card:hover{
     transform: scale(1.03);
 }
 .vendors-page{
@@ -181,7 +191,7 @@ a:hover{
     background-position: center;
 }
 .vendors-details-page{
-    background-image: url(images/vendor-details-page-bg-alternative-01.jpg);
+    background-image: url(images/vendor-details-page-bg-alternative-2-01.jpg);
     background-position: bottom;
     background-size: cover;
 }
@@ -190,4 +200,14 @@ a:hover{
     padding: 4px 10px;
     color: #fff;
     border-radius: 10px;
+}
+.background-essentials{
+    background-image: url(images/vendor-details-page-bg-alternative-2-01.jpg);
+    background-size: cover;
+    background-position: bottom;
+}
+.background-about-page{
+    background-image: url(images/background-about-page-01.jpg);
+    background-size: cover;
+    background-position: bottom;
 }
