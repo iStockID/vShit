@@ -1,0 +1,187 @@
+body{
+    font-family: 'Alata', sans-serif;
+}
+p{
+    color: #6a7080;
+    font-family: 'Varela Round', sans-serif;
+}
+a{
+    transition: all .3s;
+}
+a:hover{
+    text-decoration: none;
+}
+/* Colors */
+.text-dark-blue{
+    color: #08192d;
+}
+.text-pink{
+    color: #fc0254;
+}
+.text-gray{
+    color: #6a7080;
+}
+/* Buttons */
+.button-pink{
+    background-color: #fc0254;
+    border-radius: 50px;
+    padding: 10px 20px;
+    color: #fff;
+}
+.button-pink:hover{
+    background-color: #fff;
+    color: #fc0254;
+}
+.button-dark-blue{
+    background-color: #0a183d;
+    border-radius: 50px;
+    padding: 10px 20px;
+    color: #fff;
+}
+.button-dark-blue:hover{
+    background-color: #fff;
+    color: #0a183d;
+}
+.button-blue{
+    background-color: #2980b9;
+    border-radius: 50px;
+    padding: 10px 20px;
+    color: #fff;
+}
+.button-blue:hover{
+    background-color: #fff;
+    color: #2980b9;
+}
+/* Box Shadow */
+.shadow-basic{
+    -webkit-box-shadow: 5px 5px 10px 0px rgba(0,0,0,0.3);
+    -moz-box-shadow: 5px 5px 10px 0px rgba(0,0,0,0.3);
+    box-shadow: 5px 5px 10px 0px rgba(0,0,0,0.3);
+}
+/* Footer Setup */
+.footer .logo{
+    width: 40px;
+}
+.footer .logo-text{
+    color: #fff;
+    margin-top: 5px;
+}
+.nav-vexpo{
+    padding: 25px 0;
+    position: absolute;
+    width: 96%;
+    z-index: 9;
+}
+/* Navigation Menu and Logo */
+.nav-vexpo .logo{
+    width: 50px;
+}
+.nav-vexpo .logo-text{
+    font-size: 20px;
+    color: #fff;
+    margin-top: 6px;
+}
+.nav-vexpo .menu-nav, .nav-vexpo .menu-right{
+    padding-top: 3px;
+}
+.nav-vexpo .menu-nav > ul{
+    list-style-type: none;
+}
+.nav-vexpo .menu-nav > ul > li {
+    display: inline;
+    margin: 15px;
+}
+.nav-vexpo .menu-nav > ul > li > a{
+    color: #fff;
+}
+.nav-vexpo .menu-nav > ul > li > a:hover, .nav-vexpo .menu-right > ul > li > a:hover{
+    color: #fc0254;
+}
+.nav-vexpo .menu-right > ul {
+    list-style-type: none;
+}
+.nav-vexpo .menu-right > ul > li{
+    display: inline;
+    margin: 6px;
+}
+.nav-vexpo .menu-right > ul > li > a, .nav-vexpo .menu-right > ul > .divider{
+    color: #fff;
+}
+.nav-vexpo .menu-right .register{
+    background-color: #fc0254;
+    padding: 4px 10px;
+    border-radius: 250px;
+    transition: all .3s;
+}
+.nav-vexpo .menu-right .register > a{
+    color: #fff;
+}
+.nav-vexpo .menu-right .register:hover{
+    background-color: #fff;
+}
+.nav-vexpo .menu-right .register a:hover{
+    color: #fc0254;
+}
+.header-home .banner-text h1{
+    font-size: 65px;
+}
+.header-home .banner-text h1:nth-child(2){
+    margin-top: -30px;
+}
+.header-home{
+    background-image: url(images/header-bg.jpg);
+    background-size: cover;
+    height: 100vh;
+    padding-top: 8.5rem;
+}
+.home-brief{
+    background-image: url(images/brief-home-01.jpg);
+    background-size: cover;
+}
+.vexpo-points{
+    background-image: url(images/bg-point-vexpo-01.jpg);
+    background-size: cover;
+}
+.upcoming-stream .thumbnails .thumbnail-item .images-item{
+    transition: all .3s;
+}
+.upcoming-stream .thumbnails .thumbnail-item .images-item:hover{
+    transform: scale(1.1)
+}
+.home-sponsors{
+    background-image: url();
+    background-size: cover;
+}
+.home-sponsors .thumbnails .thumbnails-item .images-item, .home-partners .thumbnails .thumbnails-item .images-item{
+    filter: grayscale(100%);
+    transition: all .3s;
+}
+.home-sponsors .thumbnails .thumbnails-item .images-item:hover, .home-partners .thumbnails .thumbnails-item .images-item:hover{
+    filter: grayscale(0);
+    transform: scale(1.1);
+}
+.footer{
+    background-image: url(images/our-sponsors-bg-01.jpg);
+    background-size: cover;
+}
+.home-supported{
+    background-image: url(images/supported-bg-01.jpg);
+    background-size: cover;
+    background-position: center;
+}
+.vendor-thumbnails .card{
+    transition: all .3s;
+}
+.vendor-thumbnails .card:hover{
+    transform: scale(1.03);
+}
+.vendors-page{
+    background-image: url(images/page-vendors-bg-01.jpg);
+    background-size: cover;
+    background-position: center;
+}
+.vendors-details-page{
+    background-image: url(images/vendor-details-page-bg-alternative-01.jpg);
+    background-position: bottom;
+    background-size: cover;
+}
