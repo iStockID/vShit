@@ -185,3 +185,9 @@ a:hover{
     background-position: bottom;
     background-size: cover;
 }
+.style-streams{
+    background-color: #fc0254;
+    padding: 4px 10px;
+    color: #fff;
+    border-radius: 10px;
+}
