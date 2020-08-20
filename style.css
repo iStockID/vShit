@@ -6,6 +6,9 @@
     font-family: "Varela Round";
     src: url(VarelaRound-Regular.ttf) format("truetype");
 }
+html {
+    scroll-behavior: smooth;
+  }
 body{
     font-family: 'Alata', sans-serif;
 }
