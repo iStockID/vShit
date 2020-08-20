@@ -235,6 +235,11 @@ a:hover{
     background-position: top;
     background-size: cover;
 }
+.streams-page{
+    background-image: url(images/bg-streams-new-01.jpg);
+    background-position: top;
+    background-size: cover;
+}
 .style-streams{
     background-color: #fc0254;
     padding: 4px 10px;
