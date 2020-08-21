@@ -246,7 +246,7 @@ a:hover{
 }
 .vendors-details-page{
     background-image: url(images/vendor-details-page-bg-alternative-2-01.jpg);
-    background-position: bottom;
+    background-position: top;
     background-size: cover;
 }
 .login-page{
